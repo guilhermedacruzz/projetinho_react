@@ -1,15 +1,14 @@
 .Container {
-    background-color: pink;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
+    width: 100%;
 }
 
 .min-height {
     min-height: 75%;
-    border: 2px solid black;
 }
 
 .start {

@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222;
+    padding: 1em;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+.item {
+    margin: 1em;
+}
+
+.item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.item a:hover {
+    color: #ff0;
+    text-decoration: underline;
+}
+
+.logo {
+    border-radius: 8px;
+    max-height: 60px;
+}

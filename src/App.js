@@ -2,6 +2,8 @@ import React from "react"
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
 
 import Container from "./components/layout/Container"
+import NavBar from "./components/layout/NavBar"
+import Footer from "./components/layout/Footer"
 
 import Home from "./components/pages/Home"
 import Company from "./components/pages/Company"
@@ -11,12 +13,7 @@ import NewGirl from "./components/pages/NewGirl"
 function App() {
     return (
         <BrowserRouter>
-            <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/company">Contato</Link></li>
-                <li><Link to="/contact">Empresa</Link></li>
-                <li><Link to="/new_anime_girl">Adicionar</Link></li>
-            </ul>
+            <NavBar/>
 
             <Container customClass="min-height">
                 <Routes>
@@ -27,9 +24,7 @@ function App() {
                 </Routes>
             </Container>
 
-            <p>
-                lorem3
-            </p>
+            <Footer/>
         </BrowserRouter>
     );
 }
