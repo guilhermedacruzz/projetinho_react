@@ -2,6 +2,6 @@ import React from "react";
 
 export default () => {
     return(
-        <h1>Girls List</h1>
+        <img src="https://image.winudf.com/v2/image/Y29tLmFuaW1lLmdpcmxzX3NjcmVlbnNob3RzXzBfZmRjZjFmMGY/screen-0.jpg?fakeurl=1&type=.jpg"/>
     )
 }
