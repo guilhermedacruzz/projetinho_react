@@ -9,6 +9,7 @@ import Home from "./components/pages/Home"
 import Company from "./components/pages/Company"
 import Contact from "./components/pages/Contact"
 import NewGirl from "./components/pages/NewGirl"
+import Girls from "./components/pages/Girls"
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
                     <Route exact path="/" element={<Home />} />
                     <Route path="/company" element={<Company />} />
                     <Route path="/contact" element={<Contact />} />
+                    <Route path="/girls" element={<Girls/>} />
                     <Route path="/new_anime_girl" element={<NewGirl />} />
                 </Routes>
             </Container>

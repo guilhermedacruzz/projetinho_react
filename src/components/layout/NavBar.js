@@ -19,13 +19,13 @@ export default () => {
                         <Link to="/">Home</Link>
                     </li>
                     <li className={styles.item}>
+                        <Link to="/girls">Waifus</Link>
+                    </li>
+                    <li className={styles.item}>
                         <Link to="/company">Contato</Link>
                     </li>
                     <li className={styles.item}>
                         <Link to="/contact">Empresa</Link>
-                    </li>
-                    <li className={styles.item}>
-                        <Link to="/new_anime_girl">Adicionar</Link>
                     </li>
                 </ul>
             </Container>
