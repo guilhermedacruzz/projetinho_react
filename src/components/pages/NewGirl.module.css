@@ -1,0 +1,13 @@
+.NewGirl {
+    width: 450px;
+    margin: 0 auto;
+    padding: 3em;   
+}
+
+.NewGirl h1 {
+    margin-bottom: 0.5em;
+}
+
+.NewGirl p {
+    color: #7b7b7b;
+}

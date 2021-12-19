@@ -1,7 +1,15 @@
 import React from "react";
 
+import styles from "./NewGirl.module.css"
+
+import WaifuForm from "../waifus/WaifuForm";
+
 export default () => {
     return(
-        <img src="https://i.ytimg.com/vi/H7CgozEKZ0k/maxresdefault.jpg"></img>
+        <div className={styles.NewGirl}>
+            <h1>Criar Projeto</h1>
+            <p>Crie sua esposa para depois adicionar skills!</p>
+            <WaifuForm/>
+        </div>
     )
 }
