@@ -1,25 +1,39 @@
 import React from "react"
 
-export default () => {
+import Input from "../form/Input"
+import Select from "../form/Select"
+import Submit from "../form/Submit"
+
+import styles from "./WaifuForm.module.css"
+
+export default (props) => {
     return (
-        <form>
+        <form className={styles.WaifuForm}>
 
-            <div>
-                <input type="text" placeholder="Digite o nome dela: " />
-            </div>
-            <div>
-                <input type="number" placeholder="Insira o orçamento: " />
-            </div>
+            <Input 
+                type="text" 
+                text="Nome"
+                value=""
+                placeholder="Digite o nome dela"
+                name="name"
+            />
 
-            <div>
-                <select name="category_id">
-                    <option disabled selected >Selecione a Personalidade</option>
-                </select>
-            </div>
+            <Input 
+                type="number" 
+                text="Orçamento"
+                value="1000000"
+                placeholder="Digite o orçamento"
+                name="budget"
+            />
 
-            <div>
-                <input type="submit" value="Criar Waifu" />
-            </div>
+            <Select
+                name="category_id"
+                text="Selecione a Personalidade"
+            />
+
+            <Submit
+                text={props.btnText}
+            />
         </form>
     )
 }
