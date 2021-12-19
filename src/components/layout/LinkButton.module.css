@@ -1,0 +1,13 @@
+.LinkButton {
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: #ccc;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 4px;
+}
+
+.LinkButton:hover {
+    background-color: #7b7b7b;
+}

@@ -2,6 +2,6 @@ import React from "react";
 
 export default () => {
     return(
-        <h1>New Girl</h1>
+        <img src="https://i.ytimg.com/vi/H7CgozEKZ0k/maxresdefault.jpg"></img>
     )
 }
